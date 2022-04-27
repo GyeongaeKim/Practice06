@@ -14,8 +14,6 @@ public class Depart extends Employee{
 	}
 	public Depart(String name, int salary, String department) {
 		super(name, salary);
-		super.getName();
-		super.getSalary();
 		this.department = department;
 	}
 	
